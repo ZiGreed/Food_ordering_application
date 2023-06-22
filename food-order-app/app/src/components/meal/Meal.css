@@ -1,0 +1,18 @@
+.meal {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px black solid;
+    padding: 10px;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.counter button {
+    width: 50px;
+    height: 25px;
+}

@@ -1,0 +1,11 @@
+.linkDiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.linkBtn {
+    background-color: rgb(34, 34, 207);
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
