@@ -3,7 +3,7 @@ import axios from "axios";
 import { useContext } from "react";
 import { UserContext } from "../context/UserContext";
 import { useState } from "react";
-import { Link, Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { RiEyeFill, RiEyeOffFill } from "react-icons/ri";
 
 function RegisterForm() {

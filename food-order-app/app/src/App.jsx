@@ -19,11 +19,11 @@ import axios from "axios";
 axios.defaults.withCredentials = true;
 
 function App() {
-  const { loggedIn, isAdmin, getLoggedIn } = useContext(UserContext);
+  const { loggedIn,  getLoggedIn } = useContext(UserContext);
 
   useEffect(() => {
     getLoggedIn();
-  }, []);
+  });
 
   if (loggedIn === undefined) {
     return <div>Loading...</div>;
