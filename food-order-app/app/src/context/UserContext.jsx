@@ -41,7 +41,7 @@ function UserContextProvider(props) {
 
   useEffect(() => {
     getLoggedIn();
-  }, []);
+  },);
 
   if (isLoading) {
     return <div>Loading...</div>;
